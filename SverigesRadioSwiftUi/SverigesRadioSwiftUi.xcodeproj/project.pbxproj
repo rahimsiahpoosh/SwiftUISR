@@ -148,7 +148,6 @@
 				19773403278DBD5D00DB899C /* Views */,
 				197733FE278C797800DB899C /* Repository */,
 				197733F9278C77EC00DB899C /* API */,
-				19F3E5532791A190004441FC /* Mock */,
 				197733C5278C503400DB899C /* SverigesRadioSwiftUiApp.swift */,
 				197733C9278C503500DB899C /* Assets.xcassets */,
 				197733CE278C503500DB899C /* Persistence.swift */,
@@ -270,13 +269,6 @@
 				19F3E53C27903477004441FC /* AnimationCardList.swift */,
 			);
 			path = ListsViews;
-			sourceTree = "<group>";
-		};
-		19F3E5532791A190004441FC /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
