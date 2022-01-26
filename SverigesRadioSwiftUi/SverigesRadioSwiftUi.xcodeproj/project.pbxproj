@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19429A822796C45B00C980BC /* GridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19429A812796C45B00C980BC /* GridViewViewModel.swift */; };
+		19429A842796CEA000C980BC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19429A832796CEA000C980BC /* RatingView.swift */; };
+		19429A8627981EB300C980BC /* RatingViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19429A8527981EB300C980BC /* RatingViewViewModel.swift */; };
+		19429A88279844E500C980BC /* AnimationCardListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19429A87279844E500C980BC /* AnimationCardListViewViewModel.swift */; };
+		197733C6278C503400DB899C /* SverigesRadioSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733C5278C503400DB899C /* SverigesRadioSwiftUiApp.swift */; };
+		197733C8278C503400DB899C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733C7278C503400DB899C /* ContentView.swift */; };
+		197733CA278C503500DB899C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197733C9278C503500DB899C /* Assets.xcassets */; };
+		197733CD278C503500DB899C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197733CC278C503500DB899C /* Preview Assets.xcassets */; };
+		197733CF278C503500DB899C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733CE278C503500DB899C /* Persistence.swift */; };
+		197733D2278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 197733D0278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodeld */; };
+		197733DC278C503500DB899C /* SverigesRadioSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733DB278C503500DB899C /* SverigesRadioSwiftUiTests.swift */; };
+		197733E6278C503500DB899C /* SverigesRadioSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733E5278C503500DB899C /* SverigesRadioSwiftUiUITests.swift */; };
+		197733E8278C503500DB899C /* SverigesRadioSwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733E7278C503500DB899C /* SverigesRadioSwiftUiUITestsLaunchTests.swift */; };
+		197733F6278C75D100DB899C /* APIProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733F5278C75D100DB899C /* APIProgram.swift */; };
+		197733FD278C78A800DB899C /* ProgramRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733FC278C78A800DB899C /* ProgramRepository.swift */; };
+		19773400278C841700DB899C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197733FF278C841700DB899C /* API.swift */; };
+		19773402278D7B2900DB899C /* APIProgramCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19773401278D7B2900DB899C /* APIProgramCollection.swift */; };
+		19773409278DBDE500DB899C /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19773408278DBDE500DB899C /* TabbarView.swift */; };
+		1977340B278DC94A00DB899C /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977340A278DC94A00DB899C /* StartView.swift */; };
+		1977340E278EC0F600DB899C /* TabbarViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977340D278EC0F600DB899C /* TabbarViewViewModel.swift */; };
+		19773410278EC32A00DB899C /* StartViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1977340F278EC32A00DB899C /* StartViewViewModel.swift */; };
+		19773417278EE05600DB899C /* ModelProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19773416278EE05600DB899C /* ModelProgram.swift */; };
+		19F3E53927902820004441FC /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E53827902820004441FC /* URL+Extensions.swift */; };
+		19F3E53B27902C80004441FC /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E53A27902C80004441FC /* GridView.swift */; };
+		19F3E53D27903477004441FC /* AnimationCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E53C27903477004441FC /* AnimationCardList.swift */; };
+		19F3E54427915FFC004441FC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E54327915FFC004441FC /* HeaderView.swift */; };
+		19F3E5462791674E004441FC /* HeaderViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E5452791674E004441FC /* HeaderViewViewModel.swift */; };
+		19F3E54827916B45004441FC /* ChannelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E54727916B45004441FC /* ChannelRepository.swift */; };
+		19F3E54A27916BE7004441FC /* APIChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E54927916BE7004441FC /* APIChannel.swift */; };
+		19F3E54C27916D43004441FC /* ModelChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E54B27916D43004441FC /* ModelChannel.swift */; };
+		19F3E54E27916FD2004441FC /* APIChannelCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3E54D27916FD2004441FC /* APIChannelCollection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197733D8278C503500DB899C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197733BA278C503400DB899C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197733C1278C503400DB899C;
+			remoteInfo = SverigesRadioSwiftUi;
+		};
+		197733E2278C503500DB899C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197733BA278C503400DB899C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197733C1278C503400DB899C;
+			remoteInfo = SverigesRadioSwiftUi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19429A812796C45B00C980BC /* GridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewViewModel.swift; sourceTree = "<group>"; };
+		19429A832796CEA000C980BC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		19429A8527981EB300C980BC /* RatingViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewViewModel.swift; sourceTree = "<group>"; };
+		19429A87279844E500C980BC /* AnimationCardListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCardListViewViewModel.swift; sourceTree = "<group>"; };
+		197733C2278C503400DB899C /* SverigesRadioSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SverigesRadioSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		197733C5278C503400DB899C /* SverigesRadioSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SverigesRadioSwiftUiApp.swift; sourceTree = "<group>"; };
+		197733C7278C503400DB899C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		197733C9278C503500DB899C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		197733CC278C503500DB899C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		197733CE278C503500DB899C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		197733D1278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SverigesRadioSwiftUi.xcdatamodel; sourceTree = "<group>"; };
+		197733D7278C503500DB899C /* SverigesRadioSwiftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SverigesRadioSwiftUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		197733DB278C503500DB899C /* SverigesRadioSwiftUiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SverigesRadioSwiftUiTests.swift; sourceTree = "<group>"; };
+		197733E1278C503500DB899C /* SverigesRadioSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SverigesRadioSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		197733E5278C503500DB899C /* SverigesRadioSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SverigesRadioSwiftUiUITests.swift; sourceTree = "<group>"; };
+		197733E7278C503500DB899C /* SverigesRadioSwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SverigesRadioSwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		197733F5278C75D100DB899C /* APIProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProgram.swift; sourceTree = "<group>"; };
+		197733FC278C78A800DB899C /* ProgramRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRepository.swift; sourceTree = "<group>"; };
+		197733FF278C841700DB899C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		19773401278D7B2900DB899C /* APIProgramCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProgramCollection.swift; sourceTree = "<group>"; };
+		19773408278DBDE500DB899C /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		1977340A278DC94A00DB899C /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1977340D278EC0F600DB899C /* TabbarViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewViewModel.swift; sourceTree = "<group>"; };
+		1977340F278EC32A00DB899C /* StartViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewViewModel.swift; sourceTree = "<group>"; };
+		19773416278EE05600DB899C /* ModelProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProgram.swift; sourceTree = "<group>"; };
+		19F3E53827902820004441FC /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		19F3E53A27902C80004441FC /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		19F3E53C27903477004441FC /* AnimationCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCardList.swift; sourceTree = "<group>"; };
+		19F3E54327915FFC004441FC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		19F3E5452791674E004441FC /* HeaderViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewViewModel.swift; sourceTree = "<group>"; };
+		19F3E54727916B45004441FC /* ChannelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelRepository.swift; sourceTree = "<group>"; };
+		19F3E54927916BE7004441FC /* APIChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIChannel.swift; sourceTree = "<group>"; };
+		19F3E54B27916D43004441FC /* ModelChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelChannel.swift; sourceTree = "<group>"; };
+		19F3E54D27916FD2004441FC /* APIChannelCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIChannelCollection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		197733BF278C503400DB899C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197733D4278C503500DB899C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197733DE278C503500DB899C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197733B9278C503400DB899C = {
+			isa = PBXGroup;
+			children = (
+				197733C4278C503400DB899C /* SverigesRadioSwiftUi */,
+				197733DA278C503500DB899C /* SverigesRadioSwiftUiTests */,
+				197733E4278C503500DB899C /* SverigesRadioSwiftUiUITests */,
+				197733C3278C503400DB899C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		197733C3278C503400DB899C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197733C2278C503400DB899C /* SverigesRadioSwiftUi.app */,
+				197733D7278C503500DB899C /* SverigesRadioSwiftUiTests.xctest */,
+				197733E1278C503500DB899C /* SverigesRadioSwiftUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197733C4278C503400DB899C /* SverigesRadioSwiftUi */ = {
+			isa = PBXGroup;
+			children = (
+				19F3E537279027D1004441FC /* Extensions */,
+				197733F4278C736400DB899C /* Models */,
+				1977340C278EC0A200DB899C /* ViewModels */,
+				19773403278DBD5D00DB899C /* Views */,
+				197733FE278C797800DB899C /* Repository */,
+				197733F9278C77EC00DB899C /* API */,
+				19F3E5532791A190004441FC /* Mock */,
+				197733C5278C503400DB899C /* SverigesRadioSwiftUiApp.swift */,
+				197733C9278C503500DB899C /* Assets.xcassets */,
+				197733CE278C503500DB899C /* Persistence.swift */,
+				197733D0278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodeld */,
+				197733CB278C503500DB899C /* Preview Content */,
+			);
+			path = SverigesRadioSwiftUi;
+			sourceTree = "<group>";
+		};
+		197733CB278C503500DB899C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				197733CC278C503500DB899C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		197733DA278C503500DB899C /* SverigesRadioSwiftUiTests */ = {
+			isa = PBXGroup;
+			children = (
+				197733DB278C503500DB899C /* SverigesRadioSwiftUiTests.swift */,
+			);
+			path = SverigesRadioSwiftUiTests;
+			sourceTree = "<group>";
+		};
+		197733E4278C503500DB899C /* SverigesRadioSwiftUiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				197733E5278C503500DB899C /* SverigesRadioSwiftUiUITests.swift */,
+				197733E7278C503500DB899C /* SverigesRadioSwiftUiUITestsLaunchTests.swift */,
+			);
+			path = SverigesRadioSwiftUiUITests;
+			sourceTree = "<group>";
+		};
+		197733F4278C736400DB899C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19F3E53327901292004441FC /* APIModels */,
+				19F3E534279012B4004441FC /* DomainModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		197733F9278C77EC00DB899C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				197733FF278C841700DB899C /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		197733FE278C797800DB899C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				197733FC278C78A800DB899C /* ProgramRepository.swift */,
+				19F3E54727916B45004441FC /* ChannelRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		19773403278DBD5D00DB899C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				197733C7278C503400DB899C /* ContentView.swift */,
+				19773408278DBDE500DB899C /* TabbarView.swift */,
+				1977340A278DC94A00DB899C /* StartView.swift */,
+				19F3E54327915FFC004441FC /* HeaderView.swift */,
+				19F3E53A27902C80004441FC /* GridView.swift */,
+				19429A832796CEA000C980BC /* RatingView.swift */,
+				19F3E54027907192004441FC /* ListsViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1977340C278EC0A200DB899C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1977340D278EC0F600DB899C /* TabbarViewViewModel.swift */,
+				1977340F278EC32A00DB899C /* StartViewViewModel.swift */,
+				19F3E5452791674E004441FC /* HeaderViewViewModel.swift */,
+				19429A812796C45B00C980BC /* GridViewViewModel.swift */,
+				19429A8527981EB300C980BC /* RatingViewViewModel.swift */,
+				19429A87279844E500C980BC /* AnimationCardListViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		19F3E53327901292004441FC /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				19773401278D7B2900DB899C /* APIProgramCollection.swift */,
+				197733F5278C75D100DB899C /* APIProgram.swift */,
+				19F3E54D27916FD2004441FC /* APIChannelCollection.swift */,
+				19F3E54927916BE7004441FC /* APIChannel.swift */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		19F3E534279012B4004441FC /* DomainModels */ = {
+			isa = PBXGroup;
+			children = (
+				19773416278EE05600DB899C /* ModelProgram.swift */,
+				19F3E54B27916D43004441FC /* ModelChannel.swift */,
+			);
+			path = DomainModels;
+			sourceTree = "<group>";
+		};
+		19F3E537279027D1004441FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19F3E53827902820004441FC /* URL+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19F3E54027907192004441FC /* ListsViews */ = {
+			isa = PBXGroup;
+			children = (
+				19F3E53C27903477004441FC /* AnimationCardList.swift */,
+			);
+			path = ListsViews;
+			sourceTree = "<group>";
+		};
+		19F3E5532791A190004441FC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		197733C1278C503400DB899C /* SverigesRadioSwiftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197733EB278C503500DB899C /* Build configuration list for PBXNativeTarget "SverigesRadioSwiftUi" */;
+			buildPhases = (
+				197733BE278C503400DB899C /* Sources */,
+				197733BF278C503400DB899C /* Frameworks */,
+				197733C0278C503400DB899C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SverigesRadioSwiftUi;
+			productName = SverigesRadioSwiftUi;
+			productReference = 197733C2278C503400DB899C /* SverigesRadioSwiftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		197733D6278C503500DB899C /* SverigesRadioSwiftUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197733EE278C503500DB899C /* Build configuration list for PBXNativeTarget "SverigesRadioSwiftUiTests" */;
+			buildPhases = (
+				197733D3278C503500DB899C /* Sources */,
+				197733D4278C503500DB899C /* Frameworks */,
+				197733D5278C503500DB899C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197733D9278C503500DB899C /* PBXTargetDependency */,
+			);
+			name = SverigesRadioSwiftUiTests;
+			productName = SverigesRadioSwiftUiTests;
+			productReference = 197733D7278C503500DB899C /* SverigesRadioSwiftUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		197733E0278C503500DB899C /* SverigesRadioSwiftUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197733F1278C503500DB899C /* Build configuration list for PBXNativeTarget "SverigesRadioSwiftUiUITests" */;
+			buildPhases = (
+				197733DD278C503500DB899C /* Sources */,
+				197733DE278C503500DB899C /* Frameworks */,
+				197733DF278C503500DB899C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197733E3278C503500DB899C /* PBXTargetDependency */,
+			);
+			name = SverigesRadioSwiftUiUITests;
+			productName = SverigesRadioSwiftUiUITests;
+			productReference = 197733E1278C503500DB899C /* SverigesRadioSwiftUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		197733BA278C503400DB899C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					197733C1278C503400DB899C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					197733D6278C503500DB899C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 197733C1278C503400DB899C;
+					};
+					197733E0278C503500DB899C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 197733C1278C503400DB899C;
+					};
+				};
+			};
+			buildConfigurationList = 197733BD278C503400DB899C /* Build configuration list for PBXProject "SverigesRadioSwiftUi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 197733B9278C503400DB899C;
+			productRefGroup = 197733C3278C503400DB899C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197733C1278C503400DB899C /* SverigesRadioSwiftUi */,
+				197733D6278C503500DB899C /* SverigesRadioSwiftUiTests */,
+				197733E0278C503500DB899C /* SverigesRadioSwiftUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197733C0278C503400DB899C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197733CD278C503500DB899C /* Preview Assets.xcassets in Resources */,
+				197733CA278C503500DB899C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197733D5278C503500DB899C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197733DF278C503500DB899C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197733BE278C503400DB899C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19429A88279844E500C980BC /* AnimationCardListViewViewModel.swift in Sources */,
+				19F3E53B27902C80004441FC /* GridView.swift in Sources */,
+				19773410278EC32A00DB899C /* StartViewViewModel.swift in Sources */,
+				19773409278DBDE500DB899C /* TabbarView.swift in Sources */,
+				1977340B278DC94A00DB899C /* StartView.swift in Sources */,
+				19429A822796C45B00C980BC /* GridViewViewModel.swift in Sources */,
+				19F3E53927902820004441FC /* URL+Extensions.swift in Sources */,
+				197733F6278C75D100DB899C /* APIProgram.swift in Sources */,
+				19F3E54C27916D43004441FC /* ModelChannel.swift in Sources */,
+				19F3E54E27916FD2004441FC /* APIChannelCollection.swift in Sources */,
+				197733FD278C78A800DB899C /* ProgramRepository.swift in Sources */,
+				1977340E278EC0F600DB899C /* TabbarViewViewModel.swift in Sources */,
+				19773417278EE05600DB899C /* ModelProgram.swift in Sources */,
+				19F3E54427915FFC004441FC /* HeaderView.swift in Sources */,
+				19773402278D7B2900DB899C /* APIProgramCollection.swift in Sources */,
+				197733CF278C503500DB899C /* Persistence.swift in Sources */,
+				19F3E5462791674E004441FC /* HeaderViewViewModel.swift in Sources */,
+				19F3E53D27903477004441FC /* AnimationCardList.swift in Sources */,
+				19F3E54827916B45004441FC /* ChannelRepository.swift in Sources */,
+				197733D2278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodeld in Sources */,
+				197733C8278C503400DB899C /* ContentView.swift in Sources */,
+				19F3E54A27916BE7004441FC /* APIChannel.swift in Sources */,
+				19429A8627981EB300C980BC /* RatingViewViewModel.swift in Sources */,
+				19773400278C841700DB899C /* API.swift in Sources */,
+				197733C6278C503400DB899C /* SverigesRadioSwiftUiApp.swift in Sources */,
+				19429A842796CEA000C980BC /* RatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197733D3278C503500DB899C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197733DC278C503500DB899C /* SverigesRadioSwiftUiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197733DD278C503500DB899C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197733E8278C503500DB899C /* SverigesRadioSwiftUiUITestsLaunchTests.swift in Sources */,
+				197733E6278C503500DB899C /* SverigesRadioSwiftUiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		197733D9278C503500DB899C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197733C1278C503400DB899C /* SverigesRadioSwiftUi */;
+			targetProxy = 197733D8278C503500DB899C /* PBXContainerItemProxy */;
+		};
+		197733E3278C503500DB899C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197733C1278C503400DB899C /* SverigesRadioSwiftUi */;
+			targetProxy = 197733E2278C503500DB899C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		197733E9278C503500DB899C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		197733EA278C503500DB899C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		197733EC278C503500DB899C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SverigesRadioSwiftUi/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DLE7FXSES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.sr.SverigesRadioSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		197733ED278C503500DB899C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SverigesRadioSwiftUi/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DLE7FXSES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.sr.SverigesRadioSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		197733EF278C503500DB899C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DLE7FXSES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.sr.SverigesRadioSwiftUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SverigesRadioSwiftUi.app/SverigesRadioSwiftUi";
+			};
+			name = Debug;
+		};
+		197733F0278C503500DB899C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DLE7FXSES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.sr.SverigesRadioSwiftUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SverigesRadioSwiftUi.app/SverigesRadioSwiftUi";
+			};
+			name = Release;
+		};
+		197733F2278C503500DB899C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DLE7FXSES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.sr.SverigesRadioSwiftUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SverigesRadioSwiftUi;
+			};
+			name = Debug;
+		};
+		197733F3278C503500DB899C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DLE7FXSES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.sr.SverigesRadioSwiftUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SverigesRadioSwiftUi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197733BD278C503400DB899C /* Build configuration list for PBXProject "SverigesRadioSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197733E9278C503500DB899C /* Debug */,
+				197733EA278C503500DB899C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197733EB278C503500DB899C /* Build configuration list for PBXNativeTarget "SverigesRadioSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197733EC278C503500DB899C /* Debug */,
+				197733ED278C503500DB899C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197733EE278C503500DB899C /* Build configuration list for PBXNativeTarget "SverigesRadioSwiftUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197733EF278C503500DB899C /* Debug */,
+				197733F0278C503500DB899C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197733F1278C503500DB899C /* Build configuration list for PBXNativeTarget "SverigesRadioSwiftUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197733F2278C503500DB899C /* Debug */,
+				197733F3278C503500DB899C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		197733D0278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				197733D1278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodel */,
+			);
+			currentVersion = 197733D1278C503500DB899C /* SverigesRadioSwiftUi.xcdatamodel */;
+			path = SverigesRadioSwiftUi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 197733BA278C503400DB899C /* Project object */;
+}
